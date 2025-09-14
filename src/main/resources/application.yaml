@@ -16,3 +16,9 @@ langchain4j:
 logging:
   level:
     dev.langchain4j: debug
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password: 123456
